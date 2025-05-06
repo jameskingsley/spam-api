@@ -1,4 +1,5 @@
 fastapi
+streamlit
 uvicorn
 joblib
 scikit-learn

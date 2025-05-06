@@ -6,8 +6,8 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 # Load the pre-trained model and TF-IDF vectorizer
-model = joblib.load('models/spam_classifier_model.pkl')
-tfidf = joblib.load('models/tfidf_vectorizer.pkl')
+model = joblib.load('spam_classifier_model.pkl')
+tfidf = joblib.load('tfidf_vectorizer.pkl')
 
 # Initialize FastAPI app
 app = FastAPI()
